@@ -1,0 +1,99 @@
+body{
+    font-family: 'Pacifico', cursive;
+    background-repeat: no-repeat;
+   background-image: url('../svg/undraw_gaming_6oy3.png');
+}
+.textcolorp1{
+    color: green;
+}
+.textcolorp2{
+    color: blue;
+}
+#p1display , #p2display {
+    font-size: 3rem;
+}
+.style{
+    font-size: 1.5em;
+    margin: 0;
+}
+.container{
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+button{
+    padding: 1%;
+    border-radius: 5px;
+}
+#p1{
+    color: cornsilk;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+}
+#p2{
+    color: cornsilk;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blue;
+}
+.player{
+    padding: 15px;
+}
+#reset{
+    cursor: pointer;
+    background-color: red;
+}
+button , #p1:hover{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    animation: 6s ease-out;
+    color: white;
+   background-color: rgb(8, 59, 8);
+}
+#p2:hover{
+    padding: 15px;
+    border-radius: 20px;
+    animation: 6s ease-out ;
+    color: white;
+    background-color: rgb(6, 6, 51);
+}
+#reset:hover{
+    padding: 15px;
+    border-radius: 20px;
+    animation: 6s ease-out linear;
+    color: white;
+    background-color: rgb(149, 0, 0);
+}
+
+@media (max-width: 660px){
+    body{
+        background-size: cover;
+        background-position: center;
+    }
+    button{
+        margin: 6px;
+    }
+    input{
+        width: 40%;
+        align-self: center;
+    }
+    .button_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .style{
+        background-color: rgba(128, 128, 128, 0.26);
+    }
+}
+@media (max-width: 553px){
+        .player{
+        display: none;
+    }
+}
