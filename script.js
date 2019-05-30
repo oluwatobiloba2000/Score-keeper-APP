@@ -7,8 +7,8 @@ const reset = document.getElementById('reset');
 const input = document.querySelector('input');
 const winningScoreDisplay = document.querySelector('p span');
 
-// var player1 = prompt("PLAYER 1 name is ?");
-// var player2 = prompt('PLAYER 2 name is ?');
+var player1 = prompt("PLAYER 1 name is ?");
+var player2 = prompt('PLAYER 2 name is ?');
 
   if(player1 == null || player1.trim() == '' || !isNaN(player1)){
     p1Button.textContent = 'Player 1';
